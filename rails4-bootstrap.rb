@@ -70,6 +70,10 @@ gem "omniauth-facebook"
 gem "omniauth-twitter"
 gem "hashugar", github: "alex-klepa/hashugar"
 
+gem "slim-rails"
+gem 'bootstrap_form'
+gem "kaminari"
+
 run 'bundle install'
 
 ### Generators
