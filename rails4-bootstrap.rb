@@ -131,7 +131,7 @@ inject_into_file 'config/initializers/devise.rb', after: /# config.omniauth .*?\
 end
 
 ### Download misc files
-source_url = 'https://raw.github.com/alex-klepa/rails4-bootstrap-devise-cancan-omniauth/master'
+source_url = 'https://raw.github.com/ryanicle/rails4-bootstrap-devise-cancan-omniauth/master'
 get "#{source_url}/app/assets/javascripts/users.js.coffee",                   'app/assets/javascripts/users.js.coffee'
 get "#{source_url}/app/assets/stylesheets/application.css.scss",              'app/assets/stylesheets/application.css.scss'
 get "#{source_url}/app/assets/stylesheets/bootstrap_and_overrides.css.scss",  'app/assets/stylesheets/bootstrap_and_overrides.css.scss'
